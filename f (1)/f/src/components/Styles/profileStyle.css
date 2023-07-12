@@ -1,0 +1,30 @@
+.profile-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 50px;
+    
+}
+.profileImg{
+    width: 100%;
+    /* height: 135px; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profileImg > img{
+    background-color: red;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+}
+.per-info{
+    padding: 0 10px;
+
+}
+/* .per-info > label{
+    pad
+} */

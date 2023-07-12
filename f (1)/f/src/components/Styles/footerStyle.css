@@ -1,0 +1,94 @@
+
+body{
+    width: 100%;
+}
+
+
+.footer-hight-x{
+    height: 300px;
+    width: 100%;
+}
+
+footer{
+    font-family: gilroy;
+    color: rgba(255, 255, 255, 0.723);
+   width: 100%;
+ 
+   background-color: rgba(15, 14, 14, 0.873);
+   padding: 40px;
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-top: 40px;
+   position: absolute;
+  bottom: 0;
+}
+.f-container{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.663);
+    justify-content: space-around;
+    
+}
+
+.f-left{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.f-left .logo-x{
+    display: flex;
+    align-items: center;
+}
+.logo-x> img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.logo-x> h1{
+    color: white;
+}
+.f-right{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.f-right > .sub{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.f-right > label{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(161, 244, 7);
+}
+.f-right > i{
+    margin-top:10px;
+}
+.f-right > .sub >input{
+    border: none ;
+    outline: none;
+    padding: 10px ;
+    width: 260px;
+    padding-right: 80px;
+}
+.sub >i{
+    padding: 10px 15px;
+    background-color: rgb(255, 153, 0);
+}
+
+.coypright{
+    text-align: right;
+    padding: 20px;
+    padding-bottom:7PX;
+}

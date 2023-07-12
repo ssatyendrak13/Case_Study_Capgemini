@@ -1,0 +1,22 @@
+.club-offer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+
+}
+.club-offer > img{
+    width: 88%;
+    object-fit: cover;
+}
+
+.promisis{
+    width: 100%;
+    padding: 10px;
+}
+.promisis >img{
+    width: 80%;
+}
+.ddddd{
+    background-color: rgb(63, 111, 153);
+}
